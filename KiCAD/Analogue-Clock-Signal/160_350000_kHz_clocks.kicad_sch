@@ -1,0 +1,26 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 0b779dd7-8b55-4fe6-a762-0ec1b7e63b15)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text_box "Use one output to drive AD9102?"
+    (at 194.31 19.05 0) (size 81.28 8.89)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 2.54 2.54)) (justify left top))
+    (uuid 879ff15d-87c1-4757-8a59-d4ea732f4568)
+  )
+
+  (global_label "SI5338A_IN" (shape input) (at 55.88 68.58 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 75652c75-2520-4343-bf80-c235760f3ff9)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 55.88 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+)

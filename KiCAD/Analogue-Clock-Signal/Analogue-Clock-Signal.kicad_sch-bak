@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 92cc1fc0-fc1b-4664-930a-bf56f0e68f2f)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 27.94 20.32) (size 40.64 38.1) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f9e88ea2-c540-4e88-bb6b-54be0da42b46)
+    (property "Sheetname" "Clocks" (at 27.94 19.6084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "clocks.kicad_sch" (at 27.94 59.0046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Analogue-Clock-Signal"
+        (path "/92cc1fc0-fc1b-4664-930a-bf56f0e68f2f" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

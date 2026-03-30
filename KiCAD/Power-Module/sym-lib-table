@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "GNSSDO-Rb-Signal-Generator")(type "KiCad")(uri "${KIPRJMOD}/../Project-libraries/library/GNSSDO-Rb-Signal-Generator.kicad_sym")(options "")(descr ""))
+)

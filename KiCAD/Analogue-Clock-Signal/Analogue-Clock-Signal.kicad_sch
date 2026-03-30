@@ -1,0 +1,125 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 92cc1fc0-fc1b-4664-930a-bf56f0e68f2f)
+
+  (paper "USLetter")
+
+  (title_block
+    (title "GNSSDO Rb Signal Generator - Analogue")
+    (date "2023-11-19")
+    (rev "v0.2.0")
+    (company "TechConficio Inc.")
+    (comment 3 "License : Creative Commons By 4.0 International")
+    (comment 4 "Author : Steven Knudsen")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 16.51 161.29) (size 40.64 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 209d8428-79c1-47d8-8574-fc2ad643fc97)
+    (property "Sheetname" "Isolators" (at 16.51 160.5784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "isolators.kicad_sch" (at 16.51 198.7046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Analogue-Clock-Signal"
+        (path "/92cc1fc0-fc1b-4664-930a-bf56f0e68f2f" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 16.51 20.32) (size 40.64 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 40bbb614-e1b8-4dbd-a3a8-60081ce225ab)
+    (property "Sheetname" "10 MHz buffer" (at 16.51 19.6084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "10MHzBuffer.kicad_sch" (at 16.51 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Analogue-Clock-Signal"
+        (path "/92cc1fc0-fc1b-4664-930a-bf56f0e68f2f" (page "1"))
+      )
+    )
+  )
+
+  (sheet (at 63.5 20.32) (size 40.64 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5e056a86-a931-4d64-94af-00a51f552999)
+    (property "Sheetname" "Connectors" (at 63.5 19.6084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "connectors.kicad_sch" (at 63.5 57.7346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Analogue-Clock-Signal"
+        (path "/92cc1fc0-fc1b-4664-930a-bf56f0e68f2f" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 16.51 116.84) (size 40.64 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6f4c81dc-79de-40c8-95fa-fdaa083fa6ad)
+    (property "Sheetname" "160-350000 kHz Clocks" (at 16.51 116.1284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "160_350000_kHz_clocks.kicad_sch" (at 16.51 154.2546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Analogue-Clock-Signal"
+        (path "/92cc1fc0-fc1b-4664-930a-bf56f0e68f2f" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 63.5 69.85) (size 40.64 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c9704548-bdcc-467e-99ca-a295cfd49e1b)
+    (property "Sheetname" "FE-5680A" (at 63.5 69.1384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "fe_5680a.kicad_sch" (at 63.5 107.2646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Analogue-Clock-Signal"
+        (path "/92cc1fc0-fc1b-4664-930a-bf56f0e68f2f" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 16.51 69.85) (size 40.64 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f9e88ea2-c540-4e88-bb6b-54be0da42b46)
+    (property "Sheetname" "10 MHz Clocks" (at 16.51 69.1384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "10MHzClocks.kicad_sch" (at 16.51 107.2646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Analogue-Clock-Signal"
+        (path "/92cc1fc0-fc1b-4664-930a-bf56f0e68f2f" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

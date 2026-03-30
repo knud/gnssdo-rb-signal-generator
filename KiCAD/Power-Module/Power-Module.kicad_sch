@@ -1,0 +1,40 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 6feadd5b-8cc2-4e9c-98ad-8d34783cbe84)
+
+  (paper "USLetter")
+
+  (title_block
+    (title "Power Module")
+    (date "2023-11-17")
+    (rev "0.5")
+    (company "TechConficio Inc.")
+    (comment 3 "License : This work is licensed under CC BY-SA 4.0 ")
+    (comment 4 "Author : Steven Knudsen")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 21.59 21.59) (size 26.67 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 400c793e-3695-4498-9dcf-e2eea81cc1e8)
+    (property "Sheetname" "Power" (at 21.59 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 21.59 47.5746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Power-Module"
+        (path "/6feadd5b-8cc2-4e9c-98ad-8d34783cbe84" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
